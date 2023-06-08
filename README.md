@@ -1,7 +1,7 @@
 # -PCA-Implement-Matrix-Multiplication-using-CUDA-C.-Find-the-elapsed-time.
-Implement Matrix Multiplication using GPU.
+# Implement Matrix Multiplication using GPU.
 
-Aim:
+# Aim:
 ## step 1:
 Define constants and variables, including matrix sizes and device memory pointers.
 ## step 2:
@@ -14,7 +14,7 @@ Set grid and block dimensions, launch the kernel function, and copy the result m
 Measure elapsed time, print the result matrix and elapsed time, and free device memory.
 ## step 6:
 Terminate the program.
-Procedure:
+# Procedure:
 ```
 Developed By: THANJIYAPPAN .K
 Reg. No: 212222240108
@@ -106,7 +106,7 @@ int main()
     return 0;
 }
 ```
-Output:
+# Output:
 ```
 root@MidPC:/home/student/Desktop# nvcc first.cu
 root@MidPC:/home/student/Desktop# ./a.out
@@ -144,5 +144,5 @@ Elapsed Time: 0.000037 seconds
 ```
 ![image](https://github.com/22009011/-PCA-Implement-Matrix-Multiplication-using-CUDA-C.-Find-the-elapsed-time./assets/118343461/01cf2c17-f7d3-4d35-9a8c-44d0e9186328)
 
-Result:
+# Result:
 Thus, the program to implement matrix multiplication using the GPU has been successfully executed.
